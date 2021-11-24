@@ -1,0 +1,178 @@
+:root {
+    --color-primary: #FEC7D7;
+    --color-secundary: #A786DF;
+    --font-family: "Nunito";
+    --font-color: rgb(224, 224, 224);
+    --color-yellow: #c4d791;
+    --color-green: #3f4a88;
+    --color-gray: #535353;
+    --color-tertiary: #D9D4E7;
+    --color-black: #0E172C;
+    --bs-secondary: #0E172C;
+}
+
+.Headline1 {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.Headline2 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--font-color);
+}
+
+.subtitle1 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.0015em;
+    color: var(--font-color);
+}
+
+.subtitle2 {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.001em;
+    color: var(--font-color);
+}
+
+.body1Regular {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: var(--color-gray);
+}
+
+.body1Bold {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: var(--font-color);
+}
+
+.body2Regular {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+    color: var(--font-color);
+}
+
+.body2Bold {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+    color: var(--font-color);
+}
+
+.buttom {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.0125em;
+    color: var(--font-color);
+}
+
+.caption {
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.004em;
+    color: var(--color-gray)
+}
+
+.menu-elementos {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: var(--font-color);
+}
+
+.icono-activo {
+    width: 122px;
+    height: 40px;
+    top: 36px;
+    left: 24px;
+    margin-top: -7px;
+}
+
+.icono-activo-home, .icono-activo-perfil {
+    width: 102px;
+    height: 40px;
+    top: 36px;
+    left: 24px;
+    margin-top: -7px;
+}
+
+.btn-perro, .btn-gato {
+    border-radius: 8px;
+    padding: 8px;
+    background: var(--color-black);
+    width: 155px;
+    height: 80px;
+    left: 172px;
+    top: 0px;
+}
+
+@media (min-width: 540px) {
+    .menu-elementos {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .Headline1 {
+        font-size: 34px;
+    }
+
+    .Headline2 {
+        font-size: 28px;
+    }
+
+    .subtitle1 {
+        font-size: 28px;
+    }
+
+    .subtitle2 {
+        font-size: 22px !important;
+    }
+
+    .body1Regular {
+        font-size: 22px !important;
+    }
+
+    .body1Bold {
+        font-size: 22px !important;
+    }
+
+    .body2Regular {
+        font-size: 20px !important;
+    }
+
+    .body2Bold {
+        font-size: 20px !important;
+    }
+
+    .buttom {
+        font-size: 24px !important;
+    }
+
+    .caption {
+        font-size: 21px !important;
+    }
+
+    .iconos {
+        width: 40px;
+    }
+
+    .nav-link-mensaje {
+        margin-left: 70%;
+    }
+}
