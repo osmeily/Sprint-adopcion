@@ -1,0 +1,94 @@
+{
+    "gatos": [
+        {
+            "id":1,
+            "nombre":"Benji",
+            "edad":"3 años",
+            "raza":"American Shorthair",
+            "ubicacion":"Pasto, Nariño",
+            "personalidad":[
+                "Juguetón",
+                "Comelón",
+                "Comunicativo"
+            ],
+            "historia":"Benji es un gato feliz, aunque no siempre parece estarlo, es muy comunicativo y ama la comida.",
+            "usuario":"Elena Perez",
+            "imagen-user":"https://images.pexels.com/photos/38554/girl-people-landscape-sun-38554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "imagen":"https://images.pexels.com/photos/5894904/pexels-photo-5894904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "categoria": "gato",
+            "sexo":"https://icon-library.com/images/male-icon-png/male-icon-png-8.jpg"
+        },
+        {
+            "id":2,
+            "nombre":"Atol",
+            "edad":"1 año",
+            "raza":"Fold Escocés",
+            "ubicacion":"Bogotá, Cundinamarca",
+            "personalidad":[
+                "Tranquilo",
+                "Cariñoso",
+                "Independiente"
+            ],
+            "historia":"Atol es un pequeño gatito rescatado de unos traficantes de animales, es muy noble y ama estar acompañado.",
+            "usuario":"David Borjas",
+            "imagen-user":"https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "imagen":"https://images.pexels.com/photos/6865045/pexels-photo-6865045.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "categoria": "gato",
+            "sexo":"https://icon-library.com/images/male-icon-png/male-icon-png-8.jpg"
+        },
+        {
+            "id":3,
+            "nombre":"Perla",
+            "edad":"5 años",
+            "raza":"Ragdoll",
+            "ubicacion":"Medellín, Antioquia",
+            "personalidad":[
+                "Noble",
+                "Calmada",
+                "Cariñosa"
+            ],
+            "historia":"Perla es una linda gatita rescatada de unos dueños negligentes, ama los mimos y desea una segunda oportunidad.",
+            "usuario":"Diego Torres",
+            "imagen-user":"https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "imagen":"https://images.pexels.com/photos/6856518/pexels-photo-6856518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "categoria": "gato",
+            "sexo":"https://png.pngtree.com/png-vector/20190621/ourmid/pngtree-femalesymbolgender--flat-color-icon--vector-icon-banner-temp-png-image_1490298.jpg"
+        },
+        {
+            "id":4,
+            "nombre":"Billy",
+            "edad":"3 meses",
+            "raza":"American Shorthair",
+            "ubicacion":"Cali, Valle del Cauca",
+            "personalidad":[
+                "Cariñoso",
+                "Juguetón",
+                "Curioso"
+            ],
+            "historia":"Billy es un lindo gatito que nació en las calles y amaría tener un hogar",
+            "usuario":"Mariangel Ruiz",
+            "imagen-user":"https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "imagen":"https://images.pexels.com/photos/2835623/pexels-photo-2835623.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+            "categoria": "gato",
+            "sexo":"https://icon-library.com/images/male-icon-png/male-icon-png-8.jpg"
+        },
+        {
+            "id":5,
+            "nombre":"Felicia",
+            "edad":"9 años",
+            "raza":"Ragamuffin",
+            "ubicacion":"Bucaramanga, Santander",
+            "personalidad":[
+                "Independiente",
+                "Cariñosa",
+                "Dormilona"
+            ],
+            "historia":"Felicia es una gata mayor que fue abandonada por sus antiguos dueños, busca un hogar tranquilo y amoroso.",
+            "usuario":"Paola Gellert",
+            "imagen-user":"https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "imagen":"https://images.pexels.com/photos/6397911/pexels-photo-6397911.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+            "categoria": "gato",
+            "sexo":"https://png.pngtree.com/png-vector/20190621/ourmid/pngtree-femalesymbolgender--flat-color-icon--vector-icon-banner-temp-png-image_1490298.jpg"
+        }
+    ]
+}

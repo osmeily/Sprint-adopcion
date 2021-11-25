@@ -2,9 +2,8 @@
     --color-primary: #FEC7D7;
     --color-secundary: #A786DF;
     --font-family: "Nunito";
-    --font-color: rgb(224, 224, 224);
-    --color-yellow: #c4d791;
-    --color-green: #3f4a88;
+    --color-blue: #91C1D7;
+    --color-green: #85D1CE;
     --color-gray: #535353;
     --color-tertiary: #D9D4E7;
     --color-black: #0E172C;
@@ -21,7 +20,6 @@
     font-weight: bold;
     font-size: 18px;
     line-height: 25px;
-    color: var(--font-color);
 }
 
 .subtitle1 {
@@ -29,7 +27,6 @@
     font-size: 18px;
     line-height: 25px;
     letter-spacing: 0.0015em;
-    color: var(--font-color);
 }
 
 .subtitle2 {
@@ -37,7 +34,6 @@
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.001em;
-    color: var(--font-color);
 }
 
 .body1Regular {
@@ -53,7 +49,6 @@
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.005em;
-    color: var(--font-color);
 }
 
 .body2Regular {
@@ -61,7 +56,6 @@
     font-size: 14px;
     line-height: 19px;
     letter-spacing: 0.005em;
-    color: var(--font-color);
 }
 
 .body2Bold {
@@ -69,7 +63,6 @@
     font-size: 14px;
     line-height: 19px;
     letter-spacing: 0.005em;
-    color: var(--font-color);
 }
 
 .buttom {
@@ -77,7 +70,6 @@
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.0125em;
-    color: var(--font-color);
 }
 
 .caption {
@@ -88,11 +80,10 @@
     color: var(--color-gray)
 }
 
-.menu-elementos {
+.menu-mascotas {
     position: fixed;
-    bottom: 0;
+    top: 92%;
     width: 100%;
-    color: var(--font-color);
 }
 
 .icono-activo {
@@ -111,67 +102,45 @@
     margin-top: -7px;
 }
 
-.btn-perro, .btn-gato {
-    border-radius: 8px;
-    padding: 8px;
-    background: var(--color-black);
-    width: 155px;
-    height: 80px;
-    left: 172px;
-    top: 0px;
-}
-
-@media (min-width: 540px) {
-    .menu-elementos {
+@media (min-width: 540px){
+    .menu-mascotas {
         position: fixed;
-        bottom: 0;
+        top: 0;
         width: 100%;
     }
-
     .Headline1 {
-        font-size: 34px;
+        font-size: 34px !important;
     }
-
     .Headline2 {
-        font-size: 28px;
+        font-size: 28px !important;
     }
-
     .subtitle1 {
-        font-size: 28px;
+        font-size: 28px !important;
     }
-
     .subtitle2 {
         font-size: 22px !important;
     }
-
     .body1Regular {
         font-size: 22px !important;
     }
-
     .body1Bold {
         font-size: 22px !important;
     }
-
     .body2Regular {
         font-size: 20px !important;
     }
-
     .body2Bold {
         font-size: 20px !important;
     }
-
     .buttom {
         font-size: 24px !important;
     }
-
     .caption {
         font-size: 21px !important;
     }
-
     .iconos {
         width: 40px;
     }
-
     .nav-link-mensaje {
         margin-left: 70%;
     }
