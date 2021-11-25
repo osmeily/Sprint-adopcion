@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,600&display=swap');
+
 #home {
     background: var(--color-primary);
     font-family: Nunito;
@@ -85,39 +87,47 @@
     .btn-perro, .btn-gato {
         width: 300px;
         height: 105px;
+
     }
     .div-categorias {
         margin-bottom: 55px;
     }
-    /**/
+
     .card-img {
         width: 200px;
         height: 300px;
     }
+
     .columna1, .columna2 {
         margin-left: 165px;
         margin-right: 135px;
         width: 324px !important;
     }
+
     .card-img-overlay {
         width: 200px !important;
         ;
         height: 300px!important;
         ;
     }
+
     .card-title {
         margin-top: 115%;
     }
+
     .grid-mascotas {
         justify-content: center;
     }
+
     .btn-modal {
         width: 345px !important;
         padding: 26px !important;
     }
+
     .div-btn-modal {
         text-align: center;
     }
+    
     .mascotas {
         width: 20%;
     }

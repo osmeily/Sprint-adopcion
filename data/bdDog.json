@@ -1,1 +1,95 @@
 
+{
+    "perros": [
+        {
+            "id":1,
+            "nombre":"Baloo",
+            "edad":"3 años",
+            "raza":"Labrador Retriever",
+            "ubicacion":"Pasto, Nariño",
+            "personalidad":[
+                "Juguetón",
+                "Comelón",
+                "Comunicativo"
+            ],
+            "historia":"Baloo es un perro feliz, aunque no siempre parece estarlo, es muy comunicativo y ama la comida.",
+            "usuario":"Elena Perez",
+            "imagenUser":"https://images.pexels.com/photos/38554/girl-people-landscape-sun-38554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "imagen":"https://images.pexels.com/photos/1308222/pexels-photo-1308222.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+            "categoria": "perro",
+            "sexo":"https://icon-library.com/images/male-icon-png/male-icon-png-8.jpg"
+        },
+        {
+            "id":2,
+            "nombre":"Garfio",
+            "edad":"6 meses",
+            "raza":"Pasto Alemán",
+            "ubicacion":"Bogotá, Cundinamarca",
+            "personalidad":[
+                "Tranquilo",
+                "Cariñoso",
+                "Independiente"
+            ],
+            "historia":"Garfio es un pequeño perrito rescatado de unos traficantes de animales, es muy noble y ama estar acompañado.",
+            "usuario":"David Borjas",
+            "imagenUser":"https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "imagen":"https://images.pexels.com/photos/3709026/pexels-photo-3709026.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "categoria": "perro",
+            "sexo":"https://icon-library.com/images/male-icon-png/male-icon-png-8.jpg"
+        },
+        {
+            "id":3,
+            "nombre":"Sheila",
+            "edad":"5 años",
+            "raza":"Pitbull",
+            "ubicacion":"Medellín, Antioquia",
+            "personalidad":[
+                "Noble",
+                "Calmada",
+                "Cariñosa"
+            ],
+            "historia":"Perla es una linda gatita rescatada de unos dueños negligentes, ama los mimos y desea una segunda oportunidad.",
+            "usuario":"Diego Torres",
+            "imagenUser":"https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "imagen":"https://images.pexels.com/photos/4043571/pexels-photo-4043571.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "categoria": "perro",
+            "sexo":"https://png.pngtree.com/png-vector/20190621/ourmid/pngtree-femalesymbolgender--flat-color-icon--vector-icon-banner-temp-png-image_1490298.jpg"
+        },
+        {
+            "id":4,
+            "nombre":"Puchi",
+            "edad":"9 meses",
+            "raza":"Chihuahua",
+            "ubicacion":"Cali, Valle del Cauca",
+            "personalidad":[
+                "Cariñoso",
+                "Juguetón",
+                "Curioso"
+            ],
+            "historia":"Puchi es un lindo perrito que nació en las calles y amaría tener un hogar",
+            "usuario":"Mariangel Ruiz",
+            "imagenUser":"https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "imagen":"https://images.pexels.com/photos/4777025/pexels-photo-4777025.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "categoria": "perro",
+            "sexo":"https://icon-library.com/images/male-icon-png/male-icon-png-8.jpg"
+        },
+        {
+            "id":5,
+            "nombre":"Harmony",
+            "edad":"8 años",
+            "raza":"Mestiza, criolla",
+            "ubicacion":"Bucaramanga, Santander",
+            "personalidad":[
+                "Independiente",
+                "Cariñosa",
+                "Dormilona"
+            ],
+            "historia":"Felicia es una perrita mayor que fue abandonada por sus antiguos dueños, busca un hogar tranquilo y amoroso.",
+            "usuario":"Paola Gellert",
+            "imagenUser":"https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "imagen":"https://images.pexels.com/photos/6568482/pexels-photo-6568482.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "categoria": "perro",
+            "sexo":"https://png.pngtree.com/png-vector/20190621/ourmid/pngtree-femalesymbolgender--flat-color-icon--vector-icon-banner-temp-png-image_1490298.jpg"
+        }
+    ]
+}
