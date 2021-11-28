@@ -6,11 +6,12 @@
             "edad":"3 años",
             "raza":"American Shorthair",
             "ubicacion":"Pasto, Nariño",
-            "personalidad":[
+            "personalidad":[ 
                 "Juguetón",
-                "Comelón",
-                "Comunicativo"
-            ],
+                "Cariñoso",
+                "Inquieto"
+            ] 
+            ,
             "historia":"Benji es un gato feliz, aunque no siempre parece estarlo, es muy comunicativo y ama la comida.",
             "usuario":"Elena Perez",
             "imagenUser":"https://images.pexels.com/photos/38554/girl-people-landscape-sun-38554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
@@ -24,10 +25,10 @@
             "edad":"1 año",
             "raza":"Fold Escocés",
             "ubicacion":"Bogotá, Cundinamarca",
-            "personalidad":[
-                "Tranquilo",
+            "personalidad":[ 
+                "Juguetón",
                 "Cariñoso",
-                "Independiente"
+                "Tierno"
             ],
             "historia":"Atol es un pequeño gatito rescatado de unos traficantes de animales, es muy noble y ama estar acompañado.",
             "usuario":"David Borjas",
@@ -42,11 +43,12 @@
             "edad":"5 años",
             "raza":"Ragdoll",
             "ubicacion":"Medellín, Antioquia",
-            "personalidad":[
-                "Noble",
-                "Calmada",
-                "Cariñosa"
-            ],
+            "personalidad":[ 
+                "Tierno",
+                "Cariñoso",
+                "Inquieto"
+            ]
+            ,
             "historia":"Perla es una linda gatita rescatada de unos dueños negligentes, ama los mimos y desea una segunda oportunidad.",
             "usuario":"Diego Torres",
             "imagenUser":"https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
@@ -60,11 +62,12 @@
             "edad":"3 meses",
             "raza":"American Shorthair",
             "ubicacion":"Cali, Valle del Cauca",
-            "personalidad":[
-                "Cariñoso",
+            "personalidad":[ 
                 "Juguetón",
-                "Curioso"
-            ],
+                "Cariñoso",
+                "Inquieto"
+            ]
+            ,
             "historia":"Billy es un lindo gatito que nació en las calles y amaría tener un hogar",
             "usuario":"Mariangel Ruiz",
             "imagenUser":"https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
@@ -78,11 +81,12 @@
             "edad":"9 años",
             "raza":"Ragamuffin",
             "ubicacion":"Bucaramanga, Santander",
-            "personalidad":[
-                "Independiente",
-                "Cariñosa",
-                "Dormilona"
-            ],
+            "personalidad":[ 
+                "Juguetón",
+                "Tierno",
+                "Inquieto"
+            ]
+            ,
             "historia":"Felicia es una gata mayor que fue abandonada por sus antiguos dueños, busca un hogar tranquilo y amoroso.",
             "usuario":"Paola Gellert",
             "imagenUser":"https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",

@@ -9,9 +9,10 @@
             "ubicacion":"Pasto, Nariño",
             "personalidad":[
                 "Juguetón",
-                "Comelón",
-                "Comunicativo"
-            ],
+                "Tierno",
+                "Cariñoso"
+                ]
+            ,
             "historia":"Baloo es un perro feliz, aunque no siempre parece estarlo, es muy comunicativo y ama la comida.",
             "usuario":"Elena Perez",
             "imagenUser":"https://images.pexels.com/photos/38554/girl-people-landscape-sun-38554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
@@ -26,9 +27,9 @@
             "raza":"Pasto Alemán",
             "ubicacion":"Bogotá, Cundinamarca",
             "personalidad":[
-                "Tranquilo",
-                "Cariñoso",
-                "Independiente"
+                "Juguetón",
+                "Tierno",
+                "Inquieto"
             ],
             "historia":"Garfio es un pequeño perrito rescatado de unos traficantes de animales, es muy noble y ama estar acompañado.",
             "usuario":"David Borjas",
@@ -44,9 +45,9 @@
             "raza":"Pitbull",
             "ubicacion":"Medellín, Antioquia",
             "personalidad":[
-                "Noble",
-                "Calmada",
-                "Cariñosa"
+                "Juguetón",
+                "Tierno",
+                "Inquieto"
             ],
             "historia":"Perla es una linda gatita rescatada de unos dueños negligentes, ama los mimos y desea una segunda oportunidad.",
             "usuario":"Diego Torres",
@@ -63,8 +64,8 @@
             "ubicacion":"Cali, Valle del Cauca",
             "personalidad":[
                 "Cariñoso",
-                "Juguetón",
-                "Curioso"
+                "Tierno",
+                "Jugueton"
             ],
             "historia":"Puchi es un lindo perrito que nació en las calles y amaría tener un hogar",
             "usuario":"Mariangel Ruiz",
@@ -79,10 +80,10 @@
             "edad":"8 años",
             "raza":"Mestiza, criolla",
             "ubicacion":"Bucaramanga, Santander",
-            "personalidad":[
-                "Independiente",
-                "Cariñosa",
-                "Dormilona"
+            "personalidad":[ 
+                "Juguetón",
+                "Cariñoso",
+                "Inquieto"
             ],
             "historia":"Felicia es una perrita mayor que fue abandonada por sus antiguos dueños, busca un hogar tranquilo y amoroso.",
             "usuario":"Paola Gellert",

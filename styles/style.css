@@ -162,6 +162,7 @@ button:focus:not(:focus-visible) {
     background: var(--color-black);
 }
 
+
 .modal {
     padding-top: 0px;
     margin-top: 0px;
@@ -177,4 +178,5 @@ button:focus:not(:focus-visible) {
 
 .modal-footer{
     justify-content: center;
+    margin: auto;
 }

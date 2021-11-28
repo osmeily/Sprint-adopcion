@@ -14,6 +14,7 @@
     font-weight: 800;
     font-size: 24px;
     line-height: 33px;
+    margin-top: 25px;
 }
 
 .Headline2 {
@@ -72,6 +73,54 @@
     letter-spacing: 0.0125em;
 }
 
+.btn-modal {
+    width: 100%;
+    border-radius: 98px;
+    padding: 16px;
+    background: var(--color-black);
+}
+
+.btn-inicio{
+    margin: auto;
+}
+
+.sexo{
+    width: 30px;
+}
+
+.navbar-brand{
+    position: absolute;
+    margin-left: 20px;
+}
+
+.back{
+    width: 35px;
+}
+
+.img-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin: auto;
+}
+
+.img-container > div {
+    border:#A786DF 1px solid;
+    border-radius: 8px;
+    margin: auto;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+
+.userImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    overflow: hidden;
+    border:#85D1CE 1px solid;
+}
 .caption {
     font-weight: normal;
     font-size: 11px;

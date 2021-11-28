@@ -1,3 +1,4 @@
+
 let formulario = document.getElementById('formulario');
 let btnCorreo = document.getElementById('btnCorreo');
 let btnEditar = document.getElementById('btnEditar');
@@ -15,7 +16,7 @@ formulario.addEventListener('submit', async (e) => {
 let name = document.getElementById('name').value;
 let lastName = document.getElementById('lastName').value;
 let email = document.getElementById('email').value;
-
+  
     let resp = await fetch('http://localhost:4002/usuarios/',{
         method: 'POST',
         body: JSON.stringify({
@@ -27,6 +28,8 @@ let email = document.getElementById('email').value;
             "Content-Type": "application/json; charset=UTF-8"
         }
     }) 
+   /*  let data = resp.json();
+    console.log(data) */
 })
 
 btnCorreo.addEventListener('click', async () => {
@@ -52,7 +55,7 @@ btnEditar.addEventListener('click', async() => {
     let nameMod = document.getElementById('name').value;
     let lastNameMod = document.getElementById('lastName').value;
     let emailMod = document.getElementById('email').value;
-
+  
     let resp = await fetch(`http://localhost:4002/usuarios/${idModificar}`, {
         method: 'PUT',
         body: JSON.stringify({
@@ -65,6 +68,7 @@ btnEditar.addEventListener('click', async() => {
             "Content-Type": "application/json; charset=UTF-8"
         }
     }) 
+
 })
 
 btnEliminar.addEventListener('click', async() => {
@@ -73,4 +77,5 @@ btnEliminar.addEventListener('click', async() => {
     let resp = await fetch(`http://localhost:4002/usuarios/${idModificar}`,{
         method: 'DELETE',
     })
+
 })

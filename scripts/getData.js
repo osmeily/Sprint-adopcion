@@ -2,15 +2,15 @@ let btnGato = document.getElementById('btnGato');
 let btnPerro = document.getElementById('btnperro');
 
 const getMascota = async (url) =>{
-    export const muestraMascota = document.querySelector(".grid-mascotas")
+    const muestraMascota = document.querySelector(".grid-mascotas")
     muestraMascota.innerHTML = '';
     const resp = await fetch(url);
     const data = await resp.json();
     data.forEach(mascota => {
-        const {imagen,nombre,raza} = mascota;
+        const {id, imagen, nombre, raza} = mascota;
         muestraMascota.innerHTML += `
         <div class="col mascotas">
-        <a href="#" class="enlace-detalle-mascota">
+        <a href="./detail.html" id="${id}" class="enlace-detalle-mascota">
             <div class="card bg-dark text-white gradiente">                
                 <img src="${imagen}" class="card-img" alt="...">
                 <div class="card-img-overlay">
@@ -21,6 +21,11 @@ const getMascota = async (url) =>{
         </a>
     </div>
         `
+        document.getElementById(id).addEventListener("click", ()=>{
+            console.log(id)
+
+            localStorage.setItem("detail", String(id))
+        })
     });
     
 }
