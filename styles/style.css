@@ -160,6 +160,7 @@ button:focus:not(:focus-visible) {
     border-radius: 98px;
     padding: 16px;
     background: var(--color-black);
+    color: white;
 }
 
 
