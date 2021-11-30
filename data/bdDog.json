@@ -18,7 +18,7 @@
             "imagenUser":"https://images.pexels.com/photos/38554/girl-people-landscape-sun-38554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
             "imagen":"https://images.pexels.com/photos/1308222/pexels-photo-1308222.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
             "categoria": "perro",
-            "sexo":"https://icon-library.com/images/male-icon-png/male-icon-png-8.jpg"
+            "sexo":"./images/male.png"
         },
         {
             "id":2,
@@ -36,7 +36,7 @@
             "imagenUser":"https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
             "imagen":"https://images.pexels.com/photos/3709026/pexels-photo-3709026.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
             "categoria": "perro",
-            "sexo":"https://icon-library.com/images/male-icon-png/male-icon-png-8.jpg"
+            "sexo":"./images/male.png"
         },
         {
             "id":3,
@@ -49,12 +49,12 @@
                 "Tierno",
                 "Inquieto"
             ],
-            "historia":"Perla es una linda gatita rescatada de unos dueños negligentes, ama los mimos y desea una segunda oportunidad.",
+            "historia":"Sheila es una linda perrita rescatada de unos dueños negligentes, ama los mimos y desea una segunda oportunidad.",
             "usuario":"Diego Torres",
             "imagenUser":"https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
             "imagen":"https://images.pexels.com/photos/4043571/pexels-photo-4043571.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
             "categoria": "perro",
-            "sexo":"https://png.pngtree.com/png-vector/20190621/ourmid/pngtree-femalesymbolgender--flat-color-icon--vector-icon-banner-temp-png-image_1490298.jpg"
+            "sexo":"./images/female.png"
         },
         {
             "id":4,
@@ -65,14 +65,14 @@
             "personalidad":[
                 "Cariñoso",
                 "Tierno",
-                "Jugueton"
+                "Juguetón"
             ],
             "historia":"Puchi es un lindo perrito que nació en las calles y amaría tener un hogar",
             "usuario":"Mariangel Ruiz",
             "imagenUser":"https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
             "imagen":"https://images.pexels.com/photos/4777025/pexels-photo-4777025.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
             "categoria": "perro",
-            "sexo":"https://icon-library.com/images/male-icon-png/male-icon-png-8.jpg"
+            "sexo":"./images/male.png"
         },
         {
             "id":5,
@@ -85,12 +85,12 @@
                 "Cariñoso",
                 "Inquieto"
             ],
-            "historia":"Felicia es una perrita mayor que fue abandonada por sus antiguos dueños, busca un hogar tranquilo y amoroso.",
+            "historia":"Harmony es una perrita mayor que fue abandonada por sus antiguos dueños, busca un hogar tranquilo y amoroso.",
             "usuario":"Paola Gellert",
             "imagenUser":"https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
             "imagen":"https://images.pexels.com/photos/6568482/pexels-photo-6568482.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
             "categoria": "perro",
-            "sexo":"https://png.pngtree.com/png-vector/20190621/ourmid/pngtree-femalesymbolgender--flat-color-icon--vector-icon-banner-temp-png-image_1490298.jpg"
+            "sexo":"./images/female.png"
         }
     ]
 }

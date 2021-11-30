@@ -17,7 +17,7 @@
             "imagenUser":"https://images.pexels.com/photos/38554/girl-people-landscape-sun-38554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
             "imagen":"https://images.pexels.com/photos/208984/pexels-photo-208984.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
             "categoria": "gato",
-            "sexo":"https://icon-library.com/images/male-icon-png/male-icon-png-8.jpg"
+            "sexo":"./images/male.png"
         },
         {
             "id":2,
@@ -35,7 +35,7 @@
             "imagenUser":"https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
             "imagen":"https://images.pexels.com/photos/6865045/pexels-photo-6865045.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
             "categoria": "gato",
-            "sexo":"https://icon-library.com/images/male-icon-png/male-icon-png-8.jpg"
+            "sexo":"./images/male.png"
         },
         {
             "id":3,
@@ -54,7 +54,7 @@
             "imagenUser":"https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
             "imagen":"https://images.pexels.com/photos/6856518/pexels-photo-6856518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
             "categoria": "gato",
-            "sexo":"https://png.pngtree.com/png-vector/20190621/ourmid/pngtree-femalesymbolgender--flat-color-icon--vector-icon-banner-temp-png-image_1490298.jpg"
+            "sexo":"./images/female.png"
         },
         {
             "id":4,
@@ -73,7 +73,7 @@
             "imagenUser":"https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
             "imagen":"https://images.pexels.com/photos/2835623/pexels-photo-2835623.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
             "categoria": "gato",
-            "sexo":"https://icon-library.com/images/male-icon-png/male-icon-png-8.jpg"
+            "sexo":"./images/male.png"
         },
         {
             "id":5,
@@ -92,7 +92,7 @@
             "imagenUser":"https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
             "imagen":"https://images.pexels.com/photos/6397911/pexels-photo-6397911.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
             "categoria": "gato",
-            "sexo":"https://png.pngtree.com/png-vector/20190621/ourmid/pngtree-femalesymbolgender--flat-color-icon--vector-icon-banner-temp-png-image_1490298.jpg"
+            "sexo":"./images/female.png"
         }
     ]
 }
