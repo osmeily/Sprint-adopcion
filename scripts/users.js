@@ -1,4 +1,3 @@
-
 let formulario = document.getElementById('formulario');
 let btnCorreo = document.getElementById('btnCorreo');
 let btnEditar = document.getElementById('btnEditar');
@@ -68,7 +67,8 @@ btnEditar.addEventListener('click', async() => {
             "Content-Type": "application/json; charset=UTF-8"
         }
     }) 
-
+/*     let data = resp.json();
+    console.log(data); */
 })
 
 btnEliminar.addEventListener('click', async() => {
@@ -77,5 +77,6 @@ btnEliminar.addEventListener('click', async() => {
     let resp = await fetch(`http://localhost:4002/usuarios/${idModificar}`,{
         method: 'DELETE',
     })
-
+/*     let data = resp.json();
+    console.log(data); */
 })

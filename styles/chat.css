@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.back-btn{
+    position: absolute;
+    margin: 24px 24px;
+}
+
+.mensajes{
+    margin: 15px 22px 60px;
+}
+
+.inp-text{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.teclado{
+    margin-top: 5px;
+}

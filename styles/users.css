@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .guardar-cambios, .btn-iniciarSesion, .btn-registrarse {
     width: 100%;
     border-radius: 98px;
@@ -21,7 +26,7 @@
 }
 
 .label-edit {
-    margin: 0px 10px;
+    margin: auto;
 }
 
 .usuario {
@@ -39,10 +44,12 @@
     margin-bottom: 8px;
     margin-top: 8px;
 }
+
 .btn-editar{
     color: #0E172C;
     margin-bottom: 24px;
 }
+
 .datos{
     padding: 0;
 }
@@ -55,6 +62,48 @@
     margin-top: 20px;
     margin-bottom: 0;
 }
+
+.usuario-modificar{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        overflow: hidden;
+}
+
+.img-perfil{
+    width: 80px;
+}
+
+.header-user {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.boton{
+    width: 327px;
+    height: 332px;
+    margin: auto;
+}
+
+.edit-account{
+    color: #0E172C;
+    text-decoration: none;
+    outline: none;
+}
+
+.Headline1{
+    margin-left: 20px;
+    margin-bottom: 35px;
+}
+
+
+
+
+
 
 @media (min-width: 540px){
     .tituloPerfil {
