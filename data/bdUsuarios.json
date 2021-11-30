@@ -1,28 +1,16 @@
 {
   "usuarios": [
     {
-      "nombre": "osmeily",
-      "apellido": "pernia",
-      "correo": "osmeilypernia@gmail.com",
-      "id": 5
+      "nombre": "oscar",
+      "apellido": "gomez",
+      "correo": "gomez@gmail.com",
+      "id": 1
     },
     {
-      "nombre": "osme",
-      "apellido": "pernia",
-      "correo": "osmeilypernia@gmail.com",
-      "id": 6
-    },
-    {
-      "nombre": "osme",
-      "apellido": "pernia",
-      "correo": "osmeilypernia@gmail.com",
-      "id": 7
-    },
-    {
-      "nombre": "osme",
-      "apellido": "pernia",
-      "correo": "osmeilypernia@gmail.com",
-      "id": 8
+      "id": 2,
+      "nombre": "Hola 10",
+      "apellido": "QUEASE",
+      "correo": "holaquease@gmail.com"
     }
   ]
 }

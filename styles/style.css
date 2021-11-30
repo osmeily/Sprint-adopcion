@@ -4,6 +4,7 @@
     background: var(--color-primary);
     font-family: Nunito;
     font-style: normal;
+    min-height: 800px;
 }
 
 .btn-perro, .btn-gato {

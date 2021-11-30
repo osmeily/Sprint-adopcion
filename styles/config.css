@@ -83,83 +83,6 @@
     color: white;
 }
 
-/* .btn-inicio{
-    margin: auto;
-}
-
-.btn-fav{
-}
-
-.btn-img{
-    margin: 0;
-    padding: 0;
-}
-
-.sexo{
-    width: 30px;
-}
-
-.navbar-brand{
-    position: absolute;
-    margin-left: 20px;
-}
-
-.back{
-    width: 35px;
-}
-
-.img-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
-    margin-top: 15px;
-    margin-bottom: 25px;
-    margin: auto;
-    align-items: center;
-}
-
-.img-container > div {
-    display: flex;
-    flex-direction: column;
-    border:#A786DF 1px solid;
-    border-radius: 8px;
-    margin: auto;
-    padding: 5px;
-    margin-bottom: 25px;
-}
-
-.img-container > div > img {
-    margin: auto;
-}
-
-
-.userInfo{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 48px;
-    height: 48px;
-    border-radius: 50px;
-    overflow: hidden;
-    border:#85D1CE 1px solid;
-    margin-bottom: 20px;
-}
-
-.user-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 4fr;
-}
-
-.userInfo > img {
-    margin: auto;
-    width: 48px;
-}
-
-.usuario{
-    display: flex;
-    flex-direction: column;
-    
-} */
-
 .caption {
     font-weight: normal;
     font-size: 11px;
@@ -169,8 +92,8 @@
 }
 
 .menu-mascotas {
-    position: fixed;
-    top: 92%;
+    position:fixed;
+    bottom: 0;
     width: 100%;
 }
 

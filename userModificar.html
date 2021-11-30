@@ -16,19 +16,18 @@
 
 <body id="home">
         <div class="container-fluid">
-
         </div>
     <main>
         <div class="div-usuario">
             <div class="col mt-5 titulo">
-                <h1 class="Headline1">Perfil</h1>
+                <h1 class="Headline1">Editar perfil</h1>
             </div>
             <div class="header-user">
                 <div class="usuario-modificar">
                     <img class="img-perfil" src="./images/profileIcon.png" alt="">
                 </div>
                 <p class="body1Regular nombre">Nombre de Usuario</p>
-                <a class="edit-account btn-editar" href="./userModificar.html">Editar cuenta</a>
+                <a class="edit-account btn-editar" href="#">Editar cuenta</a>
             </div>
 
             <form id="formulario">
@@ -49,8 +48,14 @@
                     <input id="id" name="id" class="ms-1 edit body1Regular form-control" type="text" placeholder=""
                     readonly>
                 </div>
-                <div class="boton">
-                    <button id="btnGuardar" type="submit" class="btn btn-secondary buttom guardar-cambios">Guardar</button>
+                <div class="">
+                    <button id="btnCorreo" type="button" class="btn btn-secondary buttom guardar-cambios">Buscar por correo</button>
+                </div>
+                <div class="">
+                    <button id="btnEditar" type="button" class="btn btn-secondary buttom guardar-cambios">Editar</button>
+                </div>
+                <div class="">
+                    <button id="btnEliminar" type="button" class="btn btn-secondary buttom guardar-cambios">Eliminar</button>
                 </div>
             </form>
         </div>
@@ -67,7 +72,7 @@
                     <a class="nav-link" aria-current="page" href="./favorito.html" tabindex="-1">
                         <img src="./images/Component 3.png" alt="" width="24" height="24">
                     </a>
-                    <a class="nav-link" aria-current="page" href="#" tabindex="-1">
+                    <a class="nav-link" aria-current="page" href="./users.html" tabindex="-1">
                     <img class="icono-activo-perfil" src="https://i.ibb.co/2vzbqsF/perfil.png" alt="" width="24" height="24">
                 </a>
             </div>
@@ -76,7 +81,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
     crossorigin="anonymous"></script>
-    <script src="scripts/users.js"></script>
+    <script src="scripts/userupdate.js"></script>
 </body>
 
 
