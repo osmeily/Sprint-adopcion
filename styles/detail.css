@@ -139,3 +139,7 @@ margin: auto;
     margin-bottom: 4px;
     margin-top: 8px;
 }
+
+.fav-active {
+    display: none;
+}

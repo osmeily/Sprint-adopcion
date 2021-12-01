@@ -2,30 +2,49 @@ const detalleMascotas = document.getElementById("home");
 const endpointGato = "http://localhost:4000/gatos";
 const endpointPerro = "http://localhost:4001/perros";
 var personalidades = {
-  "Cariñoso": "./images/cariñoso.png",
-  "Juguetón": "./images/jugueton.png",
-  "Inquieto": "./images/inquieto.png",
-  "Tierno": "./images/tierno.png",
+    "Cariñoso": "./images/cariñoso.png",
+    "Juguetón": "./images/jugueton.png",
+    "Inquieto": "./images/inquieto.png",
+    "Tierno": "./images/tierno.png",
 };
 
+
+if (JSON.parse(window.localStorage.getItem("favoritos"))) {
+    if (JSON.parse(window.localStorage.getItem("favoritos")).length > 0) {
+        var favoritos = JSON.parse(window.localStorage.getItem("favoritos"))
+
+    } else {
+        var favoritos = []
+
+
+    }
+} else {
+    var favoritos = []
+
+
+}
+
+
+var actualMascota = JSON.parse(window.localStorage.getItem("detalle"))
+
 const getLocalStorage = () => {
-  const det = JSON.parse(localStorage.getItem("detalle"));
-  const {
-    id,
-    imagen,
-    nombre,
-    sexo,
-    raza,
-    edad,
-    ubicacion,
-    personalidad,
-    historia,
-    imagenUser,
-    usuario,
-  } = det;
-  console.log(imagen)
-  detalleMascotas.innerHTML += `
-  <div class="card">
+    const det = JSON.parse(localStorage.getItem("detalle"));
+    const {
+        id,
+        imagen,
+        nombre,
+        sexo,
+        raza,
+        edad,
+        ubicacion,
+        personalidad,
+        historia,
+        imagenUser,
+        usuario,
+    } = det;
+
+    detalleMascotas.innerHTML += `
+    <div class="card">
         <a href="./index.html">
             <img class="back-btn" src="./images/back.png" alt="">
         </a>
@@ -41,6 +60,7 @@ const getLocalStorage = () => {
                     <h1 class="Headline1">${nombre}</h1>
                     <img class="sex" src="${sexo}" alt="sex">
                 </div>
+                
                 <img src="./images/Guardar.svg" alt="" class="fav-btn">
             </header>
             <div class="raza-edad-ubi">
@@ -92,46 +112,66 @@ const getLocalStorage = () => {
         </div>
     </div>
     `;
+    var favBtn = document.querySelector(".fav-btn")
+    favBtn.addEventListener("click", (e) => {
+        if (favoritos.includes(actualMascota)) {
+            favoritos.splice(favoritos.indexOf(actualMascota), 1, )
+            favBtn.src = "./images/Guardar.svg"
+            window.localStorage.setItem("favoritos", JSON.stringify(favoritos))
+
+
+
+
+        } else {
+            favoritos.unshift(actualMascota)
+            favBtn.src = "./images/Guardar(1).svg"
+            window.localStorage.setItem("favoritos", JSON.stringify(favoritos))
+
+
+
+        }
+
+    })
 };
 
 document.addEventListener("DOMContentLoaded", getLocalStorage);
 
 detalleMascotas.addEventListener("click", (e) => {
-  if (e.target.classList.contains("back")) {
-    window.location.href = "./index.html";
-  }
+    if (e.target.classList.contains("back")) {
+        window.location.href = "./index.html";
+    }
 });
 
-const getDataDetailgato = async (endpointGato) => {
-  const resp = await fetch(endpointGato);
-  const datagato = await resp.json();
-  return datagato;
+const getDataDetailgato = async(endpointGato) => {
+    const resp = await fetch(endpointGato);
+    const datagato = await resp.json();
+    return datagato;
 };
 
-const getDataDetailperro = async (endpointPerro) => {
-  const resp = await fetch(endpointPerro);
-  const dataperro = await resp.json();
-  return dataperro;
+const getDataDetailperro = async(endpointPerro) => {
+    const resp = await fetch(endpointPerro);
+    const dataperro = await resp.json();
+    return dataperro;
 };
 
-const showData = async (list, element) => {
-  const mascotas = await list;
+const showData = async(list, element) => {
+    const mascotas = await list;
 
-  mascotas.forEach((mascota) => {
-    const {
-      id,
-      imagen,
-      nombre,
-      sexo,
-      raza,
-      edad,
-      ubicacion,
-      personalidad,
-      historia,
-      imagenUser,
-      usuario,
-    } = mascota;
-    element.innerHTML += `<div class="info-container">
+    mascotas.forEach((mascota) => {
+        const {
+            id,
+            imagen,
+            nombre,
+            sexo,
+            raza,
+            edad,
+            ubicacion,
+            personalidad,
+            historia,
+            imagenUser,
+            usuario,
+        } = mascota;
+        element.innerHTML += `<div class="info-container">
     <div class="info">
         <header class="card-header">
             <div class="name-sex">
@@ -189,32 +229,32 @@ const showData = async (list, element) => {
     </div>
 </div>
 `;
-  });
+    });
 
-  document.addEventListener("DOMContentLoaded", () => {
-    const data = getDataDetailgato(endpointGato);
-    showData(data, detalleMascotas);
-  });
-  document.addEventListener("DOMContentLoaded", () => {
-    const data = getDataDetailperro(endpointPerro);
-    showData(data, detalleMascotas);
-  });
+    document.addEventListener("DOMContentLoaded", () => {
+        const data = getDataDetailgato(endpointGato);
+        showData(data, detalleMascotas);
+    });
+    document.addEventListener("DOMContentLoaded", () => {
+        const data = getDataDetailperro(endpointPerro);
+        showData(data, detalleMascotas);
+    });
 
-  detalleMascotas.addEventListener("click", async (e) => {
-    const btnDetail = e.target.classList.contains("grid-mascotas");
-    const id = e.target.id;
-    console.log(id);
 
-    if (btnDetail) {
-      const lista1 = await getDataDetailgato(endpointGato);
-      const objeto1 = lista1.find((list1) => list1.id === Number(id));
-      localStorage.setItem("Detail", JSON.stringify(objeto1));
-      window.location.href = "./detail.html";
-    } else {
-      const lista2 = await getDataDetailperro(endpointPerro);
-      const objeto2 = lista2.find((list2) => list2.id === Number(id));
-      localStorage.setItem("Detail", JSON.stringify(objeto2));
-      window.location.href = "./detail.html";
-    }
-  });
+    detalleMascotas.addEventListener("click", async(e) => {
+        const btnDetail = e.target.classList.contains("grid-mascotas");
+        const id = e.target.id;
+
+        if (btnDetail) {
+            const lista1 = await getDataDetailgato(endpointGato);
+            const objeto1 = lista1.find((list1) => list1.id === Number(id));
+            localStorage.setItem("Detail", JSON.stringify(objeto1));
+            window.location.href = "./detail.html";
+        } else {
+            const lista2 = await getDataDetailperro(endpointPerro);
+            const objeto2 = lista2.find((list2) => list2.id === Number(id));
+            localStorage.setItem("Detail", JSON.stringify(objeto2));
+            window.location.href = "./detail.html";
+        }
+    });
 };
