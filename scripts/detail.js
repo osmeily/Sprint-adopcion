@@ -156,7 +156,6 @@ const getDataDetailperro = async(endpointPerro) => {
 
 const showData = async(list, element) => {
     const mascotas = await list;
-
     mascotas.forEach((mascota) => {
         const {
             id,
