@@ -92,7 +92,7 @@
 }
 
 .menu-mascotas {
-    position:fixed;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -105,54 +105,11 @@
     margin-top: -7px;
 }
 
-.icono-activo-home, .icono-activo-perfil {
+.icono-activo-home,
+.icono-activo-perfil {
     width: 102px;
     height: 40px;
     top: 36px;
     left: 24px;
     margin-top: -7px;
-}
-
-@media (min-width: 540px){
-    .menu-mascotas {
-        position: fixed;
-        top: 0;
-        width: 100%;
-    }
-    .Headline1 {
-        font-size: 34px !important;
-    }
-    .Headline2 {
-        font-size: 28px !important;
-    }
-    .subtitle1 {
-        font-size: 28px !important;
-    }
-    .subtitle2 {
-        font-size: 22px !important;
-    }
-    .body1Regular {
-        font-size: 22px !important;
-    }
-    .body1Bold {
-        font-size: 22px !important;
-    }
-    .body2Regular {
-        font-size: 20px !important;
-    }
-    .body2Bold {
-        font-size: 20px !important;
-    }
-    .buttom {
-        font-size: 24px !important;
-    }
-    .caption {
-        font-size: 21px !important;
-    }
-    .iconos {
-        width: 40px;
-    }
-    .nav-link-mensaje {
-        margin-left: 70%;
-    }
 }
